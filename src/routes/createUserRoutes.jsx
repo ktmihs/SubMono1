@@ -1,7 +1,7 @@
-import MainLayout from '@/layouts/MainLayout';
-import HomePage from '@/pages/Home';
-import SubPage from '@/pages/Sub';
-import NotFound from '@/pages/NotFound';
+import MainLayout from '@sub1/layouts/MainLayout';
+import HomePage from '@sub1/pages/Home';
+import SubPage from '@sub1/pages/Sub';
+import NotFound from '@sub1/pages/NotFound';
 
 export function createUserRoutes(options = {}) {
   const {
