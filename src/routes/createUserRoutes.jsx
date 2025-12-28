@@ -14,7 +14,7 @@ export function createUserRoutes(options = {}) {
   return [
     {
       path: basePath,
-      element: <MainLayout auth={auth} />, // ✅ Layout
+      element: <MainLayout auth={auth} basePath={basePath} />, // ✅ Layout
       children: [{
         index: true,
         element: <HomePage />,
